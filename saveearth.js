@@ -18,11 +18,8 @@ function getTimeDifference() {
       alert("지구멸망!");
     }
   } else {
-    for (let i = 0; i < 30; i++) {
-      const remain = currentTime - i;
-      time.innerText = `${remain}`;
-      time.style.color = "black";
-    }
+    time.style.color = "black";
+    time.innerText = "wait";
   }
 }
 
